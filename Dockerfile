@@ -1,4 +1,4 @@
 FROM alpine:latest
 
 
-ENTRYPOINT [cat, log.txt]
+CMD ls -la && cat log.txt
